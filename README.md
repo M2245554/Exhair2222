@@ -35,3 +35,9 @@ EXHAIR هو نظام ذكي يتم دمجه في جدران أو أرضيات س
 ## prototype 
                             
 https://monumental-pithivier-b333eb.netlify.app/#contact
+
+
+
+
+
+https://github.com/user-attachments/assets/e23de195-7739-43ce-b0b5-35135f0da461
