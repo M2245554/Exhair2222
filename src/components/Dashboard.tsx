@@ -620,7 +620,20 @@ const Dashboard: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div> {/* Electricity Usage Section */}
+<div className="mt-8 bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+  <h2 className="text-xl font-bold text-gray-900 mb-4">استخدامات الطاقة المستخرجة</h2>
+  <p className="text-gray-700 text-sm mb-4">
+    الطاقة الكهربائية الناتجة من أنظمة EXHAIR تُستخدم بشكل مباشر في تحسين كفاءة تشغيل المطار ودعم البنية التحتية.
+  </p>
+  <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-sm text-gray-800 list-disc list-inside">
+    <li>تشغيل معدات الخدمات الأرضية (GSE) بدون الحاجة لمحركات الديزل</li>
+    <li>توفير تكييف وتبريد للطائرات المتوقفة</li>
+    <li>شحن المركبات الكهربائية داخل نطاق المطار</li>
+    <li>دعم شبكة الكهرباء الداخلية في المطار</li>
+    <li>تشغيل أنظمة الإنارة والطوارئ</li>
+    <li>تقليل الاعتماد على الشبكة العامة وتقليل التكاليف التشغيلية</li>
+  </ul>
   );
 };
 
